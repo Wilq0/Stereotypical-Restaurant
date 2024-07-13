@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+.sigma{
+    text-align: center;
+    color: white;
+    font-family: Impact;
+    margin-bottom: 0px;
+    font-size: 36px;
+}
+
+.sale {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+#menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 4px;
+  }
+  
+
+.subSection {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.order {
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    font-size: 18px;
+}
+
+.price {
+    display: inline-block;
+    width: 59%;
+    text-align: right;
+    font-size: 18px;
+}
+
+.buyButton {
+    width: 8%;
+    text-align: center;
+    margin-left: 15px;
+    max-width: 50px;
+}

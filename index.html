@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kung Pao Chicken Menu</title>
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1 class="sigma">Kung Pao Chicken</h1>
+            <h2 class="sale">Sale!</h2>
+        </section>
+
+        <section>
+            <div id = "menu">
+                <h2 class ="subSection">Menu</h2>
+                <p class = "order">Kung Pao Chicken</p><button class = "buyButton" onclick = "buyChicken()">Buy</button><p class = "price">Was $13.50, now $11.00</p>
+                <p class = "order">White rice with eggs</p><button class = "buyButton" onclick = "buyWhiteRiceAndEggs()">Buy</button><p class = "price">Was $8.99, now $7.50</p>
+                <p class = "order">Onigiri rice ball</p><button class = "buyButton" onclick = "buyOnigiri()">Buy</button><p class = "price">Was $1.50, now $1.00</p>
+                <p class = "order">Chop suey</p><button class = "buyButton" onclick = "buySuey()">Buy</button><p class = "price">Was $11.50, now $10.00</p>
+                <hr>
+                <h2 class = "subSection">Order price</h2>
+                <p style="text-align: center;">$<span id ="TotalCost">0</span></p>
+                <button onclick = "reset()" style = "text-align: center;">Reset cost</button>
+                <footer style = "font-size: 11px; margin-top: 5px; margin-left: 2px;">
+                    No CopyRight --- Created in 7/13/2024 by munchy_mirzo
+                </footer>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
